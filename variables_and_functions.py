@@ -26,7 +26,10 @@ print('Person information: ', person_info)
 first_name, last_name, country, age, is_married = 'Adam', 'Flomen', 'Canada', 23, False
 print(first_name, last_name, country, age, is_married)
 
-first_name = input('What is your name')
-age = input('How old are you?')
-print(first_name)
-print(age)
+# first_name = input('What is your name')
+# age = input('How old are you?')
+# print(first_name)
+# print(age)
+
+first_name = 'Jared'
+print(list(first_name))
