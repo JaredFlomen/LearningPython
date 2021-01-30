@@ -54,3 +54,8 @@ base = int(input('Enter base: '))
 height = int(input('Enter height: '))
 area = 0.5 * base * height
 print('The area of the triangle is ', area)
+
+hours = int(input('Enter hours: '))
+rate = int(input('Enter rate per hour: '))
+earnings = hours * rate
+print('Your weekly earnings is ', earnings)
