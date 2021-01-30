@@ -23,3 +23,8 @@ print('a / b = ', division)
 print('a % b = ', remainder)
 print('a // b = ', floor_division)
 print('a ** b = ', exponential)
+
+#Calculating area of a circle
+radius = 10
+area_of_circle = 3.14 * radius ** 2
+print('Area of circle: ', area_of_circle)
