@@ -49,3 +49,8 @@ print(len('mango') == len('avocado'))
 print('coding' in 'coding for all')
 print('2 is not 3', 2 is not 3)
 print('J in Adam', 'J' in 'Adam')
+
+base = int(input('Enter base: '))
+height = int(input('Enter height: '))
+area = 0.5 * base * height
+print('The area of the triangle is ', area)
