@@ -40,3 +40,6 @@ mass = 75
 gravity = 9.81
 weight = mass * gravity
 print(weight, 'N')
+
+#Comparison Operators
+print(len('mango') != len('avocado'))
