@@ -33,3 +33,7 @@ print(first_name, last_name, country, age, is_married)
 
 first_name = 'Jared'
 print(list(first_name))
+
+print(type('Jared'))
+print(type(34.13))
+print(type((1,2)))
