@@ -43,3 +43,9 @@ print(weight, 'N')
 
 #Comparison Operators
 print(len('mango') != len('avocado'))
+print(len('mango') == len('avocado'))
+
+#Is, Is Not, In, Not In
+print('coding' in 'coding for all')
+print('2 is not 3', 2 is not 3)
+print('J in Adam', 'J' in 'Adam')
