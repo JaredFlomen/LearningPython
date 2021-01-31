@@ -19,3 +19,8 @@ formatted_string = 'I am {} {}. I\'m learning {}'.format(first_name, last_name, 
 print(formatted_string)
 formatted_string = 'The area of a circle with a radius {} is {:.2f}.'.format(radius, area)
 print(formatted_string)
+
+#String Interpolation
+a = 5
+b = 4
+print(f'{a} + {b} = {a + b}')
