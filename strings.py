@@ -24,3 +24,9 @@ print(formatted_string)
 a = 5
 b = 4
 print(f'{a} + {b} = {a + b}')
+
+#Slicing Strings
+language = 'Python'
+first_three = language[0:3]
+last_three = language[3:6] #Or -3: or 3:
+print(last_three)
