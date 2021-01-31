@@ -37,3 +37,5 @@ print(language[::-1])
 #Capitalize
 string_example = 'jared flomen'
 print(string_example.capitalize())
+
+#Others: expandtabgs, find, endswith
