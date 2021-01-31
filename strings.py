@@ -17,3 +17,5 @@ print(formatted_string)
 #New Formatting
 formatted_string = 'I am {} {}. I\'m learning {}'.format(first_name, last_name, language)
 print(formatted_string)
+formatted_string = 'The area of a circle with a radius {} is {:.2f}.'.format(radius, area)
+print(formatted_string)
