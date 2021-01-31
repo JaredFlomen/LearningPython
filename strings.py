@@ -30,3 +30,10 @@ language = 'Python'
 first_three = language[0:3]
 last_three = language[3:6] #Or -3: or 3:
 print(last_three)
+
+#Reversing a string
+print(language[::-1])
+
+#Capitalize
+string_example = 'jared flomen'
+print(string_example.capitalize())
