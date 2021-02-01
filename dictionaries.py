@@ -13,6 +13,7 @@ print(person['first_name'])
 print(person['skills'][2])
 print(person.get('city'))
 person['city'] = 'Toronto'
+print(person.get('city'))
 person['skills'].append('Rails')
 person['age'] = 26
 print(person)
