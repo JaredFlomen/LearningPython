@@ -32,3 +32,5 @@ print(num1)
 #Sorting in alphabetical order
 lst.sort()
 print(lst)
+reversed_list = sorted(lst, reverse=True)
+print('Reversed: ', reversed_list)
