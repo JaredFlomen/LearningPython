@@ -20,3 +20,16 @@ person = {
 
 for key, value in person.items():
   print(key, value)
+
+numbers = (1, 2, 3, 4, 5)
+for number in numbers:
+  print(number)
+  if number == 3:
+    continue
+  print('Next number should be ', number + 1) if number != 5 else print('Loop\'s end')
+print('Outside the loop')
+
+for number in range(11):
+  print(number)
+else:
+  print('The loop stops at', number)
