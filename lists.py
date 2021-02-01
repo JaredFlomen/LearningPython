@@ -18,3 +18,7 @@ print(lst)
 #Inserting into a list
 lst.insert(2, 'Flames')
 print(lst)
+
+#Delete
+del lst[1]
+print(lst)
