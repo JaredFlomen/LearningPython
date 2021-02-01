@@ -21,7 +21,7 @@ else:
 
 #IF and OR
 user = 'Jared'
-access_level = 3
+access_level = 4
 
 if user == 'admin' or access_level >= 4:
   print('Access granted!')
