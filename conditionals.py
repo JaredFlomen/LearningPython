@@ -27,3 +27,10 @@ if user == 'admin' or access_level >= 4:
   print('Access granted!')
 else:
   print('Access denied!')
+
+age = int(input('How old are you: '))
+if age > 16:
+  print('You are old enough to drive')
+else:
+  years_to_drive = 16 - age
+  print(f'You need {years_to_drive} more years to learn to drive')
