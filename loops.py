@@ -33,3 +33,16 @@ for number in range(11):
   print(number)
 else:
   print('The loop stops at', number)
+
+#Loop that makes 7 calls to print, output a triangle
+hashtag = '#'
+while len(hashtag) < 8:
+  print(hashtag)
+  hashtag += '#'
+
+#Sum of all numbers between 0 to 100
+counter = 0
+for number in range(101):
+  counter += number
+else:
+  print('The sum of all numbers is ', counter)
