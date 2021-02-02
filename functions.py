@@ -14,3 +14,9 @@ def generate_full_name ():
     full_name = first_name + space + last_name
     return full_name
 print(generate_full_name())
+
+#Functions with parameters
+def add_ten(num):
+  ten = 10
+  return num + ten
+print(add_ten(20))
