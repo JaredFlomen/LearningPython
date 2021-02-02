@@ -7,5 +7,14 @@ print(sum(1, 2))
 # os.mkdir('test_directory')
 
 #Sys module
-import sys
-print('Welcome {}. Enjoy {}'.format(sys.argv[1], sys.argv[2]))
+# import sys
+# print('Welcome {}. Enjoy {}'.format(sys.argv[1], sys.argv[2]))
+
+#Statistics module
+from statistics import mean, median, mode, stdev
+ages = [10, 12, 16, 18, 20, 24, 26]
+print('Statistics')
+print(mean(ages))
+print(median(ages))
+print(mode(ages))
+print(stdev(ages))
