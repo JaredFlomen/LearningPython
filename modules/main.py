@@ -23,3 +23,9 @@ print(stdev(ages))
 import math
 print('Math module')
 print(math.floor(128.21))
+
+#Random module
+from random import random, randint
+print('Random module')
+print(random()) #Between 0 and 0.999
+print(randint(5, 20)) #Between args passed
