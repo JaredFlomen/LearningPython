@@ -48,3 +48,11 @@ def greetings(name='Adam'):
   return message
 print(greetings())
 print(greetings("Jared"))
+
+#Arbitrary number of arguments
+def arb_args(*args):
+  total = 0
+  for num in args:
+    total += num
+  return total
+print(arb_args(1, 2, 3, 4))
