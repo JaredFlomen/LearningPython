@@ -41,3 +41,10 @@ def find_even_numbers(n):
       evens.append(i)
   return evens
 print(find_even_numbers(10))
+
+#Passing default values
+def greetings(name='Adam'):
+  message = name + ', is learning to code'
+  return message
+print(greetings())
+print(greetings("Jared"))
