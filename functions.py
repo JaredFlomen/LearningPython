@@ -20,3 +20,15 @@ def add_ten(num):
   ten = 10
   return num + ten
 print(add_ten(20))
+
+def sum_of_numbers(n):
+  total = 0
+  for i in range(n + 1):
+    total += i
+  print(total)
+sum_of_numbers(5)
+
+def calcualte_age(current_year, birth_year):
+  age = current_year - birth_year
+  return age
+print('Age: ', calcualte_age(2021, 1994))
