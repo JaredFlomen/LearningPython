@@ -32,3 +32,12 @@ def calcualte_age(current_year, birth_year):
   age = current_year - birth_year
   return age
 print('Age: ', calcualte_age(2021, 1994))
+
+#Returning a list
+def find_even_numbers(n):
+  evens = []
+  for i in range(n + 1):
+    if i % 2 == 0:
+      evens.append(i)
+  return evens
+print(find_even_numbers(10))
