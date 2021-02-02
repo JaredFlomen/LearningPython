@@ -13,8 +13,13 @@ print(sum(1, 2))
 #Statistics module
 from statistics import mean, median, mode, stdev
 ages = [10, 12, 16, 18, 20, 24, 26]
-print('Statistics')
+print('Statistics module')
 print(mean(ages))
 print(median(ages))
 print(mode(ages))
 print(stdev(ages))
+
+#Math module
+import math
+print('Math module')
+print(math.floor(128.21))
