@@ -9,4 +9,10 @@ print(positive__and_even)
 add_numbers = lambda a, b: a + b
 print(add_numbers(1, 2))
 #Self invoking lambda
-print((lambda a, b: a + b)(2,3))
+print((lambda a, b: a + b)(2, 3))
+
+#Lambda inside another function
+def power(x):
+  return lambda n: x ** n
+cube = power(2)(3)
+print(cube)
