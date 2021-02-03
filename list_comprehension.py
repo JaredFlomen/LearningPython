@@ -16,3 +16,8 @@ def power(x):
   return lambda n: x ** n
 cube = power(2)(3)
 print(cube)
+
+list_of_lists = [[[1, 2, 3]], [[4, 5, 6]], [[7, 8, 9]]]
+filter_numbers = [item for sublist in list_of_lists for item in sublist]
+filter_twice = [items for sublist in filter_numbers for items in sublist]
+print(filter_twice)
