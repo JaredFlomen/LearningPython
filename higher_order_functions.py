@@ -34,3 +34,5 @@ def add_ten():
 
 closure_result = add_ten()
 print(closure_result(20))
+
+#Python Decorators
