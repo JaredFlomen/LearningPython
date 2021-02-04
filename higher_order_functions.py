@@ -36,3 +36,13 @@ closure_result = add_ten()
 print(closure_result(20))
 
 #Python Decorators
+def uppercase_decorator(function):
+  def wrapper():
+    func = function()
+    make_uppercase = func.upper()
+    return make_uppercase
+  return wrapper
+@uppercase_decorator
+def greeting():
+  return 'Jared is learning Python'
+print(greeting())
