@@ -58,3 +58,8 @@ print(list(nums_squared))
 
 squared_with_lambda = map(lambda x: x ** 2, numbers)
 print(list(squared_with_lambda))
+
+names = ['Jared', 'Adam', 'Josh']
+def upper(name):
+  return name.upper()
+print(list(map(upper, names)))
