@@ -55,3 +55,6 @@ def squared(x):
 
 nums_squared = map(squared, numbers)
 print(list(nums_squared))
+
+squared_with_lambda = map(lambda x: x ** 2, numbers)
+print(list(squared_with_lambda))
