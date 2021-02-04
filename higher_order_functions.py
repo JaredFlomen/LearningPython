@@ -46,3 +46,12 @@ def uppercase_decorator(function):
 def greeting():
   return 'Jared is learning Python'
 print(greeting())
+
+#Built in higher order functions
+#Map
+numbers = [1, 2, 3]
+def squared(x):
+  return x ** 2
+
+nums_squared = map(squared, numbers)
+print(list(nums_squared))
