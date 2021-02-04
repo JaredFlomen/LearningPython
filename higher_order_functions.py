@@ -63,3 +63,12 @@ names = ['Jared', 'Adam', 'Josh']
 def upper(name):
   return name.upper()
 print(list(map(upper, names)))
+
+#Filter
+numbers = [1, 2, 3, 4, 5]
+def check_even(num):
+  if num % 2 == 0:
+    return True
+  return False
+even_numbers = filter(check_even, numbers)
+print(list(even_numbers))
