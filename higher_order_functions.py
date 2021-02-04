@@ -72,3 +72,12 @@ def check_even(num):
   return False
 even_numbers = filter(check_even, numbers)
 print(list(even_numbers))
+
+#Reduce
+from functools import reduce
+numbers = ['1', '2', '3', '4', '5']
+def add_numbers(x, y):
+  return int(x) + int(y)
+
+total = reduce(add_numbers, numbers)
+print(total)
