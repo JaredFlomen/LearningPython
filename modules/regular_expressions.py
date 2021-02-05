@@ -12,3 +12,9 @@ print(text[start:end])
 
 matches = re.findall('python', text, re.I)
 print(matches)
+
+#Replacing a string
+txt = '''I%%% am e%mba%rkin%g on% th%is %awesome journey to le%arn Python.% It is a fa%ntastic%%% langua%%%ge for any% developer to %%learn.'''
+
+replacing_text = re.sub('%', '', txt)
+print(replacing_text)
