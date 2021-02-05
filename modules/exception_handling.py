@@ -31,3 +31,9 @@ def sumAll(*args):
     counter += i
   return counter
 print(sumAll(1, 2, 3, 4, 5))
+
+#Spreading
+listOne = ['Jared', 'Adam', 'Sam']
+listTwo = ['Jaclyn', 'Kobe', 'Lebron']
+lst = ['Mom', *listOne, *listTwo]
+print(lst)
