@@ -23,3 +23,11 @@ def unpacking_dictionaries(name, country, city, age):
 
 person = {'name': 'Jared', 'country': 'Canada', 'city': 'Toronto', 'age': 27}
 print(unpacking_dictionaries(**person))
+
+#Packing lists
+def sumAll(*args):
+  counter = 0
+  for i in args:
+    counter += i
+  return counter
+print(sumAll(1, 2, 3, 4, 5))
