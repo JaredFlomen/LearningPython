@@ -18,3 +18,9 @@ txt = '''I%%% am e%mba%rkin%g on% th%is %awesome journey to le%arn Python.% It i
 
 replacing_text = re.sub('%', '', txt)
 print(replacing_text)
+
+#Escape characters
+regex_pattern = r'\d+'
+text = 'This example prints out the day 6 and the year 2021'
+matching = re.findall(regex_pattern, text)
+print(matching)
