@@ -16,3 +16,10 @@ else:
   print('I usually run with a try block')
 finally:
   print('I always run')
+
+#Unpacking dictionaries
+def unpacking_dictionaries(name, country, city, age):
+  return f'{name} lives in {country}, {city}. He is {age} years old'
+
+person = {'name': 'Jared', 'country': 'Canada', 'city': 'Toronto', 'age': 27}
+print(unpacking_dictionaries(**person))
