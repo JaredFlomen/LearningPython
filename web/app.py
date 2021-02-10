@@ -1,5 +1,6 @@
-from flask import Flask, render_template, request, redirect, url_for
-import os # importing operating system module
+from flask import Flask, render_template, request, redirect, url_for, Response
+import os  # importing operating system module
+import json
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
@@ -28,6 +29,30 @@ def post():
         content = request.form['content']
         print(content)
         return redirect(url_for('result'))
+
+@app.route('/api/v1.0/students', methods = ['GET'])
+def students ():
+    student_list = [
+        {
+            'name':'Jared',
+            'country':'Finland',
+            'city':'Helsinki',
+            'skills':['HTML', 'CSS','JavaScript','Python']
+        },
+        {
+            'name':'David',
+            'country':'UK',
+            'city':'London',
+            'skills':['Python','MongoDB']
+        },
+        {
+            'name':'John',
+            'country':'Sweden',
+            'city':'Stockholm',
+            'skills':['Java','C#']
+        }
+    ]
+    return Response(json.dumps(student_list), mimetype='application/json')
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
