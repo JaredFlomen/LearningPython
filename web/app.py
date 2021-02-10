@@ -5,8 +5,6 @@ app = Flask(__name__)
 # to stop caching static file
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
-
-
 @app.route('/') # this decorator create the home route
 def home ():
     techs = ['HTML', 'CSS', 'Flask', 'Python']
