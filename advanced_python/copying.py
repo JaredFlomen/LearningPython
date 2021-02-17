@@ -19,7 +19,7 @@ p2 = Person('Adam', 20)
 # print(p1.age)
 
 company = Company(p1, p2)
-company_clone = copy.copy(company)
+company_clone = copy.deepcopy(company)
 
 company_clone.boss.age = 27
 print(company_clone.boss.age)
