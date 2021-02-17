@@ -7,3 +7,8 @@ class Person:
 
 p1 = Person("Jared", 26)
 p2 = p1
+
+p2.age = 28
+
+print(p2.age)
+print(p1.age)
